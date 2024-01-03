@@ -1,6 +1,6 @@
 var GHPATH = '/vsjpwa';
 var APP_PREFIX = 'vsjpwa_';
-var VERSION = 'version_003';
+var VERSION = 'version_004';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
