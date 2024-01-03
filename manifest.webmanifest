@@ -1,7 +1,7 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
-  "description": "Github Page as a Progressive Web App",
+  "name": "Varanasi Software PWA",
+  "short_name": "VSJPWA",
+  "description": "Varanasi Software Progressive Web App",
   "scope": "/vsjpwa/",
   "start_url": "/vsjpwa/",
   "background_color": "#ffffff",
