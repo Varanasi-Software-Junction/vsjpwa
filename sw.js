@@ -1,7 +1,8 @@
 var GHPATH = '/vsjpwa';
-const CACHE_NAME = `vsj-converter`;
+// const CACHE_NAME = `vsj-converter`;
 var APP_PREFIX = 'vsjpwa';
 var VERSION = 'version_01';
+const CACHE_NAME = APP_PREFIX + VERSION
 // Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
