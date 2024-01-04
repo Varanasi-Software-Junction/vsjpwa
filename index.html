@@ -23,5 +23,32 @@
       }
   </script>
   <script src="js/app.js"></script>
+  <script>
+function randomNotification() {
+  const randomItem = Math.floor(Math.random() * 10);
+  const notifTitle = games[randomItem].name;
+  const notifBody = `Created by VSJ.`;
+  // const notifImg = `data/img/hello.jpg`;
+
+  const notifImg = `https://3.bp.blogspot.com/-py5FbTZgvjo/YDi1bsQq16I/AAAAAAAACB0/BxejbJBcHA4AVfkB33WYC3YlVmxElM7BwCK4BGAYYCw/s1600/Varanasi%2BSoftware%2BJunction%2BPhone%2BLogo.png`;
+  const options = {
+    body: notifBody,
+    icon: notifImg,
+  };
+  new Notification(notifTitle, options);
+  setTimeout(randomNotification, 30000);
+}
+
+
+const button = document.getElementById("notifications");
+button.addEventListener("click", () => {
+  Notification.requestPermission().then((result) => {
+    if (result === "granted") {
+      randomNotification();
+    }
+  });
+});
+
+  </script>
 </body>
 </html>
