@@ -1,6 +1,6 @@
 var GHPATH = '/vsjpwa';
 var APP_PREFIX = 'vsjpwa_';
-var VERSION = 'version_008';
+var VERSION = 'version_009';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
@@ -9,7 +9,8 @@ var URLS = [
   `${GHPATH}/js/app.js`
 ]
 
-var CACHE_NAME = APP_PREFIX + VERSION
+var CACHE_NAME = APP_PREFIX + VERSION;
+console.log(`Cache Name ${CACHE_NAME} `);
 self.addEventListener('fetch', function (e) {
   console.log('Fetch request : ' + e.request.url);
   e.respondWith(
