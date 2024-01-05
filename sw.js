@@ -1,12 +1,14 @@
 var GHPATH = '/vsjpwa';
 var APP_PREFIX = 'vsjpwa_';
-var VERSION = 'version_014';
+var VERSION = 'version_015';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon.png`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/js/app.js`,
+  `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css`,
+  `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION;
