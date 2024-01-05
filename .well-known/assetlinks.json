@@ -1,10 +1,8 @@
-[
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "xyz.appmaker.yromzo",
-      "sha256_cert_fingerprints": ["51:11:C7:6E:33:BB:50:5C:15:6C:74:9F:20:95:11:71:3E:13:46:14:48:A7:FC:43:1F:4D:02:39:CB:72:29:3B"]
-    }
-  }
-]
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.varanasi_software_junction.twa",
+        "sha256_cert_fingerprints": ["BD:97:4E:36:8C:4C:63:9A:25:42:C9:FA:E8:14:F0:3E:7D:72:93:0A:FB:B3:DC:E3:72:08:1F:57:7A:0D:99:8E"]
+      }
+    }]
