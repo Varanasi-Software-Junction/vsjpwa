@@ -7,6 +7,7 @@ var URLS = [
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon.png`,
   `${GHPATH}/js/app.js`,
+  `${GHPATH}/css/navbars-offcanvas.css`,
   `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css`,
   `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js`
 ]
